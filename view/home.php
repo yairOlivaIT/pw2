@@ -13,7 +13,7 @@
         <div class="card col-md-4">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Empleados</h5>
+                <h5 class="card-title"><a href="/empleado">Empleados</a></h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
         </div>
