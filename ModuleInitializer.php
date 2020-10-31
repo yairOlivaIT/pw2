@@ -45,6 +45,51 @@ class ModuleInitializer
         return new EmpleadoController($this->renderer ,$modelEmpleado);
     }
 
+    public function createViajeController()
+    {
+        include_once ("model/Viaje.php");
+        include_once("controller/ViajeController.php");
+
+        $modelViaje = new Viaje($this->database);
+        return new ViajeController($this->renderer, $modelViaje);
+    }
+
+    public function createVehiculoController()
+    {
+        include_once ("model/Vehiculo.php");
+        include_once("controller/VehiculoController.php");
+
+        $modeloVehiculo = new Vehiculo($this->database);
+        return new VehiculoController($this->renderer, $modeloVehiculo);
+    }
+
+    public function createReporteController()
+    {
+        include_once ("model/Reporte.php");
+        include_once("controller/ReporteController.php");
+
+        $modelReporte = new Reporte($this->database);
+        return new ReporteController($this->renderer, $modelReporte);
+    }
+
+    public function createSeguimientoController()
+    {
+        include_once ("model/Seguimiento.php");
+        include_once("controller/SeguimientoController.php");
+
+        $modelSeguimiento = new Seguimiento($this->database);
+        return new SeguimientoController($this->renderer, $modelSeguimiento);
+    }
+
+    public function createMantenimientoController()
+    {
+        include_once ("model/Mantenimiento.php");
+        include_once("controller/MantenimientoController.php");
+
+        $modelMantenimiento = new Mantenimiento($this->database);
+        return new MantenimientoController($this->renderer, $modelMantenimiento);
+    }
+
     public function createDefaultController()
     {
         return $this->createUserController();

@@ -6,7 +6,7 @@
         <div class="card col-md-4">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Viajes</h5>
+                <h5 class="card-title"><a href="/viaje">Viajes</a></h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
         </div>
@@ -20,7 +20,7 @@
         <div class="card col-md-4">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Vehiculos</h5>
+                <h5 class="card-title"><a href="/vehiculo">Vehiculos</a></h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
         </div>
@@ -29,21 +29,21 @@
         <div class="card col-md-4 mb-2">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Reportes</h5>
+                <h5 class="card-title"><a href="/reporte">Reportes</a></h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
         </div>
         <div class="card col-md-4 mb-2">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Seguimiento</h5>
+                <h5 class="card-title"><a href="/seguimiento">Seguimiento</a></h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
         </div>
         <div class="card col-md-4 mb-2">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Mantenimiento</h5>
+                <h5 class="card-title"><a href="/mantenimiento">Mantenimiento</a></h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
         </div>
