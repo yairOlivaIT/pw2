@@ -20,24 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee5d6a5-c0dd-4b8b-b9ca-8c97f9ee86a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/MantenimientoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/ReporteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/SeguimientoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/VehiculoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/ViajeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Mantenimiento.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Reporte.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Seguimiento.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Vehiculo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Viaje.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/mantenimiento/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/reporte/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/seguimiento/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/vehiculo/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/viaje/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/registro.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleInitializer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/header.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603983043170</updated>
       <workItem from="1603983044298" duration="12238000" />
-      <workItem from="1604183174457" duration="4696000" />
+      <workItem from="1604183174457" duration="5773000" />
     </task>
     <servers />
   </component>
@@ -119,9 +105,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="471" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1604187763035" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1604187709315">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1604188848481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604187709315" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604188848481" />
   </component>
 </project>

@@ -15,6 +15,10 @@ class UserController
         echo $this->renderer->render( "view/login.php");
     }
 
+    public function registro(){
+        echo $this->renderer->render( "view/registro.php");
+    }
+
     public function login()
     {
 
