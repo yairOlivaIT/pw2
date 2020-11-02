@@ -14,4 +14,22 @@ class EmpleadoController
     public function index(){
         echo $this->renderer->render( "view/empleado/index.php");
     }
+
+    public function edit(){
+        $id = $_GET["id"];
+        $data["id"] = $id;
+        echo $this->renderer->render( "view/empleado/edit.php", $data);
+    }
+
+    public function viajes(){
+        $id = $_GET["id"];
+        $data["id"] = $id;
+        echo $this->renderer->render( "view/empleado/viajes.php", $data);
+    }
+
+    public function show(){
+        $id = $_GET["id"];
+        $data["id"] = $id;
+        echo $this->renderer->render( "view/empleado/show.php", $data);
+    }
 }

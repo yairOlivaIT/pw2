@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee5d6a5-c0dd-4b8b-b9ca-8c97f9ee86a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/registro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/empleado/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/empleado/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/empleado/viajes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/EmpleadoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/EmpleadoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/empleado/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/empleado/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/partial/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/header.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603983043170</updated>
       <workItem from="1603983044298" duration="12238000" />
-      <workItem from="1604183174457" duration="5773000" />
+      <workItem from="1604183174457" duration="6507000" />
+      <workItem from="1604278853440" duration="5740000" />
     </task>
     <servers />
   </component>
@@ -91,6 +98,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603986421589">
@@ -105,9 +113,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="471" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1604187763035" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1604188848481">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1604284470844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604188848481" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604284470844" />
   </component>
 </project>

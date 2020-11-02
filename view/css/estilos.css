@@ -11,3 +11,7 @@ body{
     background-color: #F0F0F0;
     line-height: 1.5em;
 }
+
+.contenedor{
+    background-color: red;
+}
