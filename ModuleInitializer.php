@@ -36,6 +36,15 @@ class ModuleInitializer
         return new UserController($this->renderer, $modelUser);
     }
 
+    public function createRegistroController()
+    {
+        include_once ("model/User.php");
+        include_once("controller/RegistroController.php");
+
+        $modelUser = new User($this->database);
+        return new RegistroController($this->renderer, $modelUser);
+    }
+
     public function createEmpleadoController()
     {
         include_once ("model/Empleado.php");

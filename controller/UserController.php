@@ -15,10 +15,6 @@ class UserController
         echo $this->renderer->render( "view/login.php");
     }
 
-    public function registro(){
-        echo $this->renderer->render( "view/registro.php");
-    }
-
     public function login()
     {
 
@@ -26,7 +22,7 @@ class UserController
 
     public function home()
     {
-        echo $this->renderer->render( "view/home.php");
+        echo $this->renderer->render( "view/inicio/home.php");
     }
 
     public function logout()
