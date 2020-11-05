@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cee5d6a5-c0dd-4b8b-b9ca-8c97f9ee86a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -83,6 +81,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\enzo-\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cee5d6a5-c0dd-4b8b-b9ca-8c97f9ee86a5" name="Default Changelist" comment="" />
@@ -94,7 +95,8 @@
       <workItem from="1604183174457" duration="6507000" />
       <workItem from="1604278853440" duration="7438000" />
       <workItem from="1604324149141" duration="8911000" />
-      <workItem from="1604495895144" duration="26615000" />
+      <workItem from="1604495895144" duration="29049000" />
+      <workItem from="1604583797949" duration="955000" />
     </task>
     <servers />
   </component>
@@ -130,9 +132,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604532955075" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1604519794092">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1604584458847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604519794092" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604584458847" />
   </component>
 </project>
