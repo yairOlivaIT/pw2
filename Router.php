@@ -1,14 +1,16 @@
 <?php
 
 class Router{
-    public static function executeActionFromController($moduleInitializer, $module, $action = "index"){
-        $controller = self::createControllerFrom($moduleInitializer, $module);
-        self::ejecutarMetodo($controller, $action);
-    }
-
-    private static function createControllerFrom($moduleInitializer,$module){
+    public static function executeActionFromController($moduleInitializer, $module, $action){
         $controllerName = self::createControllerNameFromModule($module);
-        return self::ejecutarMetodo($moduleInitializer, $controllerName);
+        try {
+            $controller = self::ejecutarMetodo($moduleInitializer, $controllerName);
+            self::ejecutarMetodo($controller, $action);
+        }
+        catch (Exception $e){
+            $controller = self::llamarMetodo($moduleInitializer, self::createControllerNameFromModule("excepciones"));
+            self::llamarMetodo($controller, "index");
+        }
     }
 
     private static  function createControllerNameFromModule($module){
@@ -22,25 +24,21 @@ class Router{
             return self::llamarMetodo($clase, $validAction);
         }
         catch (Exception $e){
-            /*echo ("Error 404");*/
-            require_once("ModuleInitializer.php");
-            $controller = self::llamarMetodo(new ModuleInitializer(), "createExcepcionesController");
-            self::llamarMetodo($controller, "index");
-            die();
+            throw new Exception($e->getMessage());
         }
     }
 
-    private static function verificar($fuente, $buscar)
+    private static function verificar($clase, $metodo)
     {
-        if (method_exists($fuente, $buscar)){
-            return $buscar;
+        if (method_exists($clase, $metodo)){
+            return $metodo;
         }
 
         throw new Exception("Error 404");
     }
 
-    private static function llamarMetodo($fuente, $metodo)
+    private static function llamarMetodo($clase, $metodo)
     {
-        return call_user_func(array($fuente, $metodo));
+        return call_user_func(array($clase, $metodo));
     }
 }
