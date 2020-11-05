@@ -99,6 +99,13 @@ class ModuleInitializer
         return new MantenimientoController($this->renderer, $modelMantenimiento);
     }
 
+    public function createExcepcionesController()
+    {
+        include_once("controller/ExcepcionesController.php");
+
+        return new ExcepcionesController($this->renderer);
+    }
+
     public function createDefaultController()
     {
         return $this->createUserController();
