@@ -1,5 +1,5 @@
-{{> header}}
-<h1>Bienvenido usuario</h1>
+{{> headerInterno}}
+<h1>Bienvenido {{nombre}}</h1>
 <h3>Menu</h3>
 <div class="contenedor">
     <div class="col-12 d-md-flex">

@@ -20,7 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee5d6a5-c0dd-4b8b-b9ca-8c97f9ee86a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/view/partial/headerInterno.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/insert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/empleado/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/empleado/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/empleado/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/empleado/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/empleado/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/empleado/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/empleado/viajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/empleado/viajes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/inicio/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/inicio/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/mantenimiento/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mantenimiento/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/header.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registro.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/reporte/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/reporte/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/seguimiento/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/seguimiento/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/vehiculo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/vehiculo/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viaje/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viaje/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +116,7 @@
       <workItem from="1604324149141" duration="8911000" />
       <workItem from="1604495895144" duration="29049000" />
       <workItem from="1604583797949" duration="955000" />
+      <workItem from="1604791019209" duration="1706000" />
     </task>
     <servers />
   </component>
@@ -120,6 +140,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604519839393" />
+    <state x="403" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604791603900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="403" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604791603900" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603983325500">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -136,5 +160,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604584458847" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604792652805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604792652805" />
   </component>
 </project>

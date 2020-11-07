@@ -17,16 +17,41 @@ class UserController
 
     public function login()
     {
+        $email = $_POST['email'];
+        $password = MD5($_POST['password']);
 
+        $usuario_encontrado = $this->model->getUsuarioPorEmail($email);
+
+        if (!empty($usuario_encontrado['0'])){
+
+            if ($password === $usuario_encontrado['0']['password']){
+                $_SESSION['logueado'] = 1;
+                $_SESSION['rol'] = $usuario_encontrado['0']['rol_id'];
+                $_SESSION['user'] = $usuario_encontrado['0']['id'];
+                header('Location: /user/home');
+                die();
+            }
+        }
+
+        $error = "Usuario o contraseña incorrecta";
+        $data['error'] = $error;
+        echo $this->renderer->render( "view/login.php", $data);
     }
 
     public function home()
     {
-        echo $this->renderer->render( "view/inicio/home.php");
+        if (isset($_SESSION['logueado'])){
+            $empleado = $this->model->getEmpleado($_SESSION['user']);
+            echo $this->renderer->render( "view/inicio/home.php", $empleado['0']);
+        }
+        else{
+            header('Location: /');
+        }
     }
 
     public function logout()
     {
-
+        session_destroy();
+        header('Location: /');
     }
 }

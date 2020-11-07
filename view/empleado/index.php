@@ -1,4 +1,4 @@
-{{> header}}
+{{> headerInterno}}
     <h2>Empleados</h2>
 <div class="mt-4">
     <a href=""></a>

@@ -4,8 +4,12 @@
     <div class="col-md-8 m-auto">
         <form action="">
             <div class="form-group">
-                <label for="nombre_apellido">Nombre y apellido</label>
-                <input type="text" id="nombre_apellido" name="nombre_apellido" class="form-control" placeholder="Ingrese nombre y apellido">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingrese nombre">
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Ingrese su nombre">
             </div>
             <div class="form-group">
                 <label for="dni">DNI</label>
