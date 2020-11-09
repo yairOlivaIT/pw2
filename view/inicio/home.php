@@ -4,7 +4,7 @@
 <div class="contenedor">
     <div class="col-12 d-md-flex">
         <div class="card col-md-4 mb-2">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="/public/images/pikachu.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><a href="/viaje">Viajes</a></h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
