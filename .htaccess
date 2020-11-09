@@ -3,7 +3,7 @@
     RewriteBase /
 
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /public/
-    RewriteRule ^public/(.*)/(.*)$ public/$1/$2 [L,QSA]
+    RewriteRule ^public/(.*)$ public/$1 [L,QSA]
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
